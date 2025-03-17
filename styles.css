@@ -1,0 +1,163 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #f1ebf1, #e8c7e6); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 50px; 
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+    max-width: 500px; 
+}
+
+h1 {
+    color: #573566; 
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+
+.task-input {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.task-input input {
+    flex: 1;
+    padding: 15px;
+    border: 2px solid #846d90; 
+    border-radius: 30px;
+    font-size: 16px;
+    background-color: #f6f1f8; 
+    color: #7c5d8c; 
+}
+
+.task-input button {
+    background: #c2a3d2; 
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 30px; 
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.task-input button:hover {
+    background: #9c7aa8; 
+}
+
+/* Lista de tarefas */
+.task-list {
+    list-style: none;
+    padding: 0;
+}
+
+.task-list li {
+    background: #f6f1f8; 
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px; 
+    transition: 0.3s;
+    color: #7c5d8c; 
+}
+
+.task-list li.completed {
+    text-decoration: line-through;
+    opacity: 0.7;
+    color: #9c7aa8; 
+}
+
+/* Botões de ação */
+.task-buttons button {
+    border: none;
+    background: none;
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Caixinha com ícone de "completar" */
+.task-buttons .complete {
+    color: #6f9c66; 
+}
+
+.task-buttons .delete {
+    color: #e1a0b6; 
+}
+
+.task-buttons .complete:hover {
+    color: #4f7d52; 
+}
+
+.task-buttons .delete:hover {
+    color: #c98fa8; 
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+        border-radius: 30px; 
+    }
+
+    .task-input {
+        flex-direction: column; 
+        gap: 10px;
+    }
+
+    .task-input input {
+        width: 100%;
+        font-size: 14px;
+        padding: 12px;
+    }
+
+    .task-input button {
+        font-size: 18px;
+        padding: 12px;
+    }
+
+    .task-list li {
+        flex-direction: column; /* Ajusta os itens para telas menores */
+        align-items: center;
+        text-align: center;
+    }
+
+    .task-buttons {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    .task-input input {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .task-list li {
+        font-size: 14px;
+        padding: 12px;
+    }
+
+    .task-buttons button {
+        font-size: 20px; /* Reduz um pouco os ícones */
+    }
+}
+
+
