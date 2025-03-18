@@ -45,5 +45,16 @@ A aplicação foi projetada para funcionar perfeitamente em diferentes dispositi
 Exemplo de como a lista de tarefas se parece na aplicação:
 
 Tablet: 
+![tablet](https://github.com/user-attachments/assets/4890f29e-ece5-4989-a381-98e9fc280e45)
 
-![Imagem do WhatsApp de 2025-03-17 à(s) 19 43 00_0d61db04](https://github.com/user-attachments/assets/0691519f-9b34-4fb7-ae25-6efe36146ee5)
+Celular: 
+![celular](https://github.com/user-attachments/assets/d971deef-a48a-46a1-a0b0-91f37eec6a6a)
+
+Computador:
+![desktop](https://github.com/user-attachments/assets/3eb1e6c5-20aa-4513-8c8b-c900e3cd3585)
+
+
+
+
+
+
