@@ -22,6 +22,7 @@ Este é um projeto simples de uma **aplicação de lista de tarefas**, desenvolv
 3. Use os botões de ação para adicionar, marcar como concluída ou excluir tarefas.
 
 ## 📁 Estrutura de Diretórios
+
 / To-Do-List
 ├── index.html 
 └── styles.css
